@@ -1,0 +1,22 @@
+GET localhost:8080/api/v1/users/
+
+###
+
+POST localhost:8080/api/v1/users HTTP/1.1
+content-type: application/json
+
+{
+   "first_name": "Piarre",
+   "last_name": "Dev"
+}
+
+###
+PUT localhost:8080/api/v1/users/1 HTTP/1.1
+content-type: application/json
+
+{
+   "first_name": "Piarre_",
+   "last_name": "Dev_"
+}
+
+DELETE localhost:8080/api/v1/users/1 HTTP/1.1
