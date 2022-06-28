@@ -1,6 +1,8 @@
 # Fiber API
 Fiber API built with Go
 
-## Use
-`git clone https://github.com/Piarre/FiberAPI`
-`sh entry`
+## 🖐 Use
+```bash
+git clone https://github.com/Piarre/FiberAPI
+sh entry
+```
