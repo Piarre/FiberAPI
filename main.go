@@ -8,7 +8,7 @@ import (
 	"github.com/gofiber/fiber/v2"
 )
 
-var apiBaseUrl string = "/api/v1"
+var apiBaseUrl string = "/api/v1/users"
 
 func welcome(ctx *fiber.Ctx) error {
 	return ctx.SendString("Hello World!")
